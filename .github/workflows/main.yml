@@ -1,6 +1,6 @@
 name: Daily Commit
 
-on:
+# on:
   schedule:
     - cron: "30 16 * * *"  # 10:00 PM IST = 16:30 UTC
   workflow_dispatch:
